@@ -15,7 +15,7 @@ int main(){
     
     unsigned volatile char *randomByte = &x;
     
-    printf("Program initialized with content %i at adress %p. \n\n", *randomByte, randomByte);
+    printf("Program initialized with content %i at adress %p.\nSize of pointer is %i. \n\n", *randomByte, randomByte, sizeof(randomByte));
     
     int choice[] = {-1};
     
